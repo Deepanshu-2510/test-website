@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header"></div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Work With Us</h2>
+        <p class="subtitle">Reach out! Let's start something together.</p>
+        <div class="process">
+            <div class="process-step">
+                <div class="step-icon">
+                    <img src="./src/img/email.svg" alt="Apply">
+                </div>
+                <div class="step-content">
+                    <h3>Consultation</h3>
+                    <p>Discuss your project ideas and goals with our experienced team and bring it to life.</p>
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-icon">
+                    <img src="./src/img/call.svg" alt="Consultation">
+                </div>
+                <div class="step-content">
+                    <h3>Project Planning</h3>
+                    <p>Together, we'll create a comprehensive project plan and timeline to ensure smooth execution.</p>
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-icon">
+                    <img src="./src/img/video.svg" alt="Rock & Roll">
+                </div>
+                <div class="step-content">
+                    <h3>Production</h3>
+                    <p>Our skilled editors transform your vision into reality, delivering outstanding video content with precision and creativity.</p>
+                </div>
+            </div>
+        </div>
+        <div class="cta">
+            <h2>Take Action Today</h2>
+            <a href="https://www.instagram.com/allin1mediain?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                class="cta-button" target="_blank">Talk to us</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/allin1mediain?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank">
+                <img src="./src/img/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/allin1-media" target="_blank">
+                <img src="./src/img/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://www.youtube.com/@allin1mediain" target="_blank">
+                <img src="./src/img/youtube.svg" alt="YouTube">
+            </a>
+        </div>
+    </section>
+    <div class="form-container">
+        <form id="contactForm">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="Your Email.." required>
+
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+
+            <button type="submit">Submit Form</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
